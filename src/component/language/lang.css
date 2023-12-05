@@ -1,0 +1,75 @@
+
+.language{
+    width: 40px;
+    height: 80px;
+    background: var(--color-footer);
+    position: relative;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.language h1{
+    font-size: 16px;
+    font-family: var(--font-family);
+    color: var(--color-title);
+    padding: 10px;
+}
+
+.outerlang{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15);
+    padding: 9px;
+}
+
+.innerlang{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05)
+
+}
+
+#number{
+    font-weight: 400;
+    color: #fff;
+    font-size: 12px;
+}
+
+
+circle{
+    fill: none;
+    stroke: var(--color-text);
+    stroke-width: 4px;
+    stroke-dasharray: 154.5;
+    stroke-dashoffset: 154.5;
+    animation: 2s linear forwards;
+
+}
+
+svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+
+@keyframes  anim2{
+    100%{
+        stroke-dashoffset: 17;
+    }
+}
+
+@keyframes  anim{
+    100%{
+        stroke-dashoffset: 8;
+    }
+}
+

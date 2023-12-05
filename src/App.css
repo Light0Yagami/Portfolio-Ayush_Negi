@@ -1,0 +1,82 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body{
+  background: var(--color-bg);
+}
+
+a{
+  color: unset;
+  text-decoration: none;
+}
+
+
+.sidebar_container{
+  margin: 20px 0 20px 20px;
+  background-color: var(--color-blog);
+  height: 95vh;
+  position: fixed;
+  width: 250px;
+}
+
+.body_container{
+  flex: 1;
+  margin: 20px 60px 20px 17em;
+  background-color: var(--color-footer);
+  height: 95vh;
+  position: fixed;
+}
+
+.body_container-position{
+  position: fixed;
+}
+
+.body_container-scroll{
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align:justify;
+  height: 95vh;
+}
+
+.body_container-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.body_container-scroll {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+
+.body_container-bg{
+  background-image: url('./asset/bgimg.jpg');
+  height: auto;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.body_container-padding{
+  padding: 20px;
+  background-color: var(--color-footer);
+}
+
+.menu_container{
+  background-color: var(--color-footer);
+  margin: 20px 10px 20px 0;
+  height: 95vh;
+  position: fixed;
+  right: 0;
+
+}
+
+
+.App{
+  display: flex;
+}

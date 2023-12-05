@@ -1,0 +1,82 @@
+/* ContactUs.css */
+
+.form-title{
+    font-family: var(--font-family);
+    font-size: 30px;
+    margin: 50px 20px 0 30px;
+
+  }
+  
+  .form_contact-us {
+    width: 95%;
+    margin: 0 30px 30px 30px;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+      background-color: var(--color-blog);
+    }
+    
+.form-title h1{
+    color: var(--color-title);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+    
+    .form-group {
+      margin-bottom: 15px;
+    }
+    
+    label {
+      font-weight: bold;
+      color: #fff;
+      display: inline-block;
+      width: 30px;
+      background-color: #000;
+      padding: 10px;
+    }
+
+
+
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 95%;
+      padding: 10px;
+      border: 1px solid var(--color-footer);
+      background-color: var(--color-footer);
+      border-radius: 3px;
+      display: inline-block;
+    }
+    
+    input[type="submit"] {
+      background-color: var(--color-text);
+      color: #000;
+      border: none;
+      border-radius: 3px;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    
+
+.messageprom{
+  padding-bottom: 50px;
+}
+
+.messagepro{
+  padding-bottom: 0px;
+  padding-top: 80px;
+}
+
+.messagepro i{
+  position: relative;
+  text-align: center;
+  bottom: 70px;
+}
+
+label:hover{
+  background-color: var(--color-text);
+}

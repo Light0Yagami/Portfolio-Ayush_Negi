@@ -1,0 +1,173 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;600;600&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+.sidebar_profile{
+    text-align: center;
+    position: relative;
+
+}
+
+.sidebar_profile img{
+    border-radius: 60%;
+    width: 20%;
+    height: auto;
+    
+}
+
+.sidebar_profile h1{
+    font-family: var(--font-family);
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: var(--color-title);
+}
+
+.sidebar_profile p{
+    font-family: var(--font-family);
+    font-size: 14px;
+    line-height: 20px;
+    color: #f8f9fa;
+    color: var(--color-subtext)
+}
+
+
+
+
+.sidebar_about-scroll{
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+    height: 60vh;
+    margin-top: 20px;
+  }
+
+  .sidebar_about-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.sidebar_about-scroll {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.sidebar_about{
+    background-color: var(--color-footer);
+    padding: 20px 20px 10px 20px;
+}
+
+.sidebar_about-info h2,
+.sidebar_about-info p{
+    display: inline;
+    vertical-align: top;
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 28px;
+}
+
+
+.sidebar_about-info h2{
+    color: var(--color-title);
+}
+
+.sidebar_about-info p{
+    color: #f8f9fa;
+    float: right;
+    padding-left: 20px;
+    color: var(--color-subtext)
+}
+
+hr{
+    color: #f8f9fa;
+    margin-top: 30px;
+}
+
+
+/* side.css */
+
+.lang-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.lang-container .sidebar_about-lang-left circle {
+    animation-name: anim;
+  }
+  
+  .lang-container .sidebar_about-lang-right circle {
+    animation-name: anim2;
+  }
+
+
+
+.sidebar_about-ul{
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+
+.sidebar_about-ul ul{
+    list-style-type: none;    
+}
+
+
+.sidebar_about-ul li{
+    font-family: var(--font-family);
+    color: #8c8c8e;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+
+.sidebar_about-ul li i{
+    color: var(--color-text);
+    padding-right: 10px;
+    font-size: 10px;
+    line-height: 26px;
+}
+
+.sidebar_about-resume{
+    padding-top: 20px;
+}
+
+.sidebar_about-resume p{
+    font-family: var(--font-family);
+    color: #f8f9fa;
+    font-weight: 200;
+    font-size: 14px;
+    color: var(--color-subtext)
+}
+
+.sidebar_about-resume i{
+    font-size: 11px;
+    padding-left: 2px;
+    color: var(--color-subtext);
+}
+
+.sidebar_about-footer{
+    padding-left: 20px;
+}
+
+.sidebar_about-footer a{
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	margin:0 5px 5px 0;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 60%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.sidebar_about-footer a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+.sidebar_about-footer i{
+    font-size: 13px;
+}
+

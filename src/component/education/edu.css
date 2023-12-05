@@ -1,0 +1,119 @@
+.edu_container{
+    width: 100%;
+    padding: 10px;
+}
+
+.edu_container{
+    padding-right: calc(10%-30px);
+}
+
+.edu_container-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+.edu_container-title{
+    color: var(--color-title);
+    padding: 30px;
+
+}
+
+.edu_container-title h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.edu_container-content{
+    padding: 0px 30px;
+    border-right: 5px solid #000;
+}
+
+
+
+.edu_container-box{
+    position: relative;
+    padding: 20px;
+    box-shadow: rgba(19, 18, 18, 0.7);
+    background-color: var(--color-blog);
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-bottom: 20px;
+
+}
+
+.edu_container-box::after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 10px; /* Adjust the size of the arrow */
+    border-color: transparent transparent transparent var(--color-blog); /* Adjust the color of the arrow */
+    top: 4%;
+    left: 105%;
+    transform: translate(-105%, -4%);
+  }
+
+
+
+
+.edu_container-box::before{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    left: calc(100% + 23px);
+    top: 0;
+    background-color: #000;
+    border: 4px solid var(--color-text);
+}
+
+.edu_container-box:hover::before{
+    color: aqua;
+    animation: rotate 1.5s linear infinite;
+}
+
+@keyframes rotate{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+
+.edu_container-box h4{
+    position: relative;
+    color: var(--color-title);
+    background-color: #000;
+    width: 50%;
+    border-radius: 25px;
+    text-align: center;
+    filter: brightness(60%);
+}
+
+.edu_container-box h3{
+    font-size: 19px;
+    padding: 10px 0px 6px;
+    color: var(--color-title);
+    
+}
+
+.edu_container-box p{
+    line-height: 1.2;
+    color: var(--color-title);
+    font-size: 17px;
+    filter: brightness(60%);
+}
+
+@media(max-width:768px){
+
+    .edu_container-row{
+        grid-template-columns: 1fr;
+    }
+
+    .edu_container-col:nth-child(2){
+        margin-top: 30px;
+    }
+}
+

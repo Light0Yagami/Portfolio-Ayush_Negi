@@ -1,0 +1,150 @@
+.skills_grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,minmax(0,1fr));
+    margin-left: 30px;
+    gap: 2rem;
+}
+
+.skills_container-grid{
+    display: grid;
+    grid-template-columns: 190px 190px 190px 190px;
+}
+
+.skills_container{
+    margin-top: 50px;
+    grid-column: span 4/4;
+}
+
+.skills_container-heading{
+    margin: 0 20px 0 10px;
+
+}
+
+.skills_container-heading h1{
+    color: var(--color-title);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.skills_container-title-box{
+    background-color: var(--color-blog);
+    padding: 10px 4px 4px 4px;
+    margin-right: 20px;    
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+
+.skills_container-title-box h2{
+    color: var(--color-title);
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    padding-left: 10px;
+
+}
+
+.skills_container-title-box p{
+    color: var(--color-title);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    color: var(--color-title)
+}
+
+.skills_container-content{
+    display: inline-block;
+    padding: 10px;
+    background-color: #000;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.skillcpp{
+    border: 1px solid skyblue;
+}
+
+.skilljava{
+    border: 1px solid var(--color-text);
+}
+
+.skillsql{
+    border: 1px solid green;
+}
+
+.skillgit{
+    border: 1px solid green;
+}
+
+.skilljen{
+    border: 1px solid var(--color-text);
+}
+
+.skilldoc{
+    border: 1px solid skyblue;
+}
+
+.skillkub{
+    border: 1px solid orangered;
+}
+
+.skillaws{
+    border: 1px solid skyblue;
+}
+
+.skilljs{
+    border: 1px solid orangered;
+}
+
+.skillrjs{
+    border: 1px solid skyblue;
+}
+
+.skills-hr{
+    color: var(--color-title);
+    margin-top: 0;
+}
+
+.skill_certificate-container{
+    display: grid;
+    padding: 1.5rem;
+}
+
+.skill_certificate-heading{
+    background-color: var(--color-blog);
+    padding: 20px 20px 0px 20px;
+}
+
+.skill_certificate-heading h1{
+    color: var(--color-title);
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.skill_certificate-links{
+    margin-top: 30px;
+    color: var(--color-title);
+    cursor: pointer;
+    padding-right: 10px;
+}
+
+.skill-certificate-title{
+    font-size: 14px;
+    text-align: left;
+    filter: brightness(80%);
+}
+
+
+.skill_certificate-tag{
+    font-size: 11px;
+    text-align: left;
+    word-spacing: normal;
+    color: var(--color-subtext);
+    margin-top: 10px;
+}
+
