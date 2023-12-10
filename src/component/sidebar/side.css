@@ -97,6 +97,14 @@ hr{
     opacity: 0.3;
 }
 
+.secline{
+    
+    height : 2px;
+    background-color: #646466;
+    margin-top: 25px;
+    opacity: 0.3;
+}
+
 
 /* side.css */
 

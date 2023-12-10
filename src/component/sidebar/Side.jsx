@@ -58,7 +58,7 @@ const downloadresume =(url)=>{
               <Lang finalCounter={89} Language="English"/>
               </div>
               </div>
-              <hr/>
+              <hr class = "secline"/>
 
               <Skillbar/>
               <hr/>
