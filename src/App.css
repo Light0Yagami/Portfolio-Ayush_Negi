@@ -12,29 +12,27 @@ body{
 a{
   color: unset;
   text-decoration: none;
-
 }
 
 
 .sidebar_container{
   margin: 20px 0 20px 20px;
   background-color: var(--color-blog);
-  height: 95vh;
+  height: auto;
   position: fixed;
   width: 250px;
+  min-width: 250px;
 }
 
 .body_container{
   flex: 1;
   margin: 20px 60px 20px 17em;
   background-color: var(--color-footer);
-  height: 95vh;
+  height: 100vh;
   position: fixed;
 }
 
-.body_container-position{
-  position: fixed;
-}
+
 
 .body_container-scroll{
   width: 100%;
@@ -42,6 +40,7 @@ a{
   overflow-y: auto;
   text-align:justify;
   height: 95vh;
+  margin-bottom: 20px;
 }
 
 .body_container-scroll::-webkit-scrollbar {
@@ -61,6 +60,7 @@ scrollbar-width: none;  /* Firefox */
   width: 100%;
   margin: 0;
   padding: 0;
+  background-size: cover;
 }
 
 .body_container-padding{
@@ -69,9 +69,9 @@ scrollbar-width: none;  /* Firefox */
 }
 
 .menu_container{
-  background-color: var(--color-footer);
+  background-color: var(--color-blog);
   margin: 20px 10px 20px 0;
-  height: 95vh;
+  height: 100vh;
   position: fixed;
   right: 0;
 
@@ -102,7 +102,7 @@ scrollbar-width: none;  /* Firefox */
     margin: 10px;
   }
   .sidebar_container {
-    left: 0;
+    left: -20px;
   }
 
   .body_container {
@@ -112,6 +112,10 @@ scrollbar-width: none;  /* Firefox */
   .body_container.shifted {
     margin-left: 0;
   }
+  
+  .body_container{
+    margin-left: 15.75em;
+  }
 
   .toggle_button {
     left: 20px;
@@ -119,7 +123,42 @@ scrollbar-width: none;  /* Firefox */
   }
 }
 
+@media (max-width:1045px){
+  .body_container-padding{
+    padding: 10px;
+  }
+
+  .menu_container{
+    display: none;
+  }
+  .body_container{
+    margin-right: 10px;
+  }
+
+}
 
 /* Add media query for responsiveness */
+@media (max-width:450px){
+  .body_container-padding{
+    padding: 0;
+  }
+  .body_container,.menu_container,.sidebar_container{
+    margin-top: 0;
+  }
 
+  .body_container{
+    margin-right: 50px;
+  }
+
+  .menu_container{
+    display: block;
+    margin-right: 0;
+  }
+
+  .toggle_button{
+    left: 10px;
+    top: 0;
+  }
+
+}
 

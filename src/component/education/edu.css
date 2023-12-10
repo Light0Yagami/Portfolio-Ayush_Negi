@@ -16,17 +16,22 @@
 .edu_container-title{
     color: var(--color-title);
     padding: 30px;
+    font-family: var(--font-family);
 
 }
 
 .edu_container-title h1{
     font-size: 20px;
     font-weight: 600;
+    font-family: var(--font-family);
+
 }
 
 .edu_container-content{
     padding: 0px 30px;
     border-right: 5px solid #000;
+    font-family: var(--font-family);
+
 }
 
 
@@ -41,6 +46,8 @@
     margin-bottom: 20px;
 
 }
+
+
 
 .edu_container-box::after {
     content: '';
@@ -84,26 +91,30 @@
 
 .edu_container-box h4{
     position: relative;
-    color: var(--color-title);
+    color: var(--color-subtext);
     background-color: #000;
     width: 50%;
     border-radius: 25px;
     text-align: center;
-    filter: brightness(60%);
+    font-family: var(--font-family);
+
 }
 
 .edu_container-box h3{
     font-size: 19px;
     padding: 10px 0px 6px;
     color: var(--color-title);
+    font-family: var(--font-family);
+
     
 }
 
 .edu_container-box p{
     line-height: 1.2;
-    color: var(--color-title);
+    color: var(--color-subtext);
     font-size: 17px;
-    filter: brightness(60%);
+    font-family: var(--font-family);
+
 }
 
 @media(max-width:768px){
@@ -126,5 +137,8 @@
     .edu_container-box::before{
         border: none;
         content: none;
+    }
+    .edu_container{
+        padding: 0;
     }
 }

@@ -8,17 +8,17 @@
 
 .skill-container .skill-box{
     width: 100%;
-    margin: 10px 0;
+    margin: 25px 0;
 }
 
 .skill-box .skill-title{
     display: block;
-    font-size: 13px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--color-title);
     font-family: var(--font-family);
-    font-style:initial;
-    font-weight: 500;
-    line-height: 27px;
-    color: var(--color-title)
+
 }
 
 .skill-box .skill-bar{
@@ -37,15 +37,15 @@
 }
 
 .skill-per.cpp{
-    width: 95%;
+    width: 75%;
 }
 
 .skill-per.java{
-    width: 85%;
+    width: 80%;
 }
 
 .skill-per.python{
-    width: 80%;
+    width: 85%;
 }
 
 @keyframes progress{
@@ -65,13 +65,13 @@
     top: -28px;
     font-size: 9px;
     font-weight: 500;
-    font-family: var(--font-family);
     color: var(--color-title);
     padding: 2px 6px;
     border-radius: 3px;
     background: var(--color-text);
-}
+    font-family: var(--font-family);
 
+}
 
 .tooltip::before{
     height: 10px;

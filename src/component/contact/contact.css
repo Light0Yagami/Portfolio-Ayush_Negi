@@ -14,6 +14,7 @@
     font-weight: 600;
     margin-bottom: 30px;
     margin-left: 10px;
+    font-family: var(--font-family);
 }
 
 .contact_info-container-box{
@@ -35,10 +36,14 @@
     justify-content: space-between;
     margin-bottom: 5px;
     color: var(--color-subtext);
+    font-family: var(--font-family);
+
 }
 
 .contact_info-container-box ul li strong{
     color: #fff;
+    font-family: var(--font-family);
+
 }
 
 
@@ -46,7 +51,7 @@
 
 
 
-@media (max-width:971px){
+@media (max-width:1045px){
     .contact_info-container{
         display: flex;
         flex-direction: column;
@@ -58,3 +63,12 @@
     }
 }
 
+@media (max-width:450px){
+    .contact_info-container-box{
+        margin-right: 10px;
+    }
+
+    .contact_info-title h1{
+        margin-left: 0px;
+    }
+}

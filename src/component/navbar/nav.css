@@ -5,6 +5,7 @@
     margin-right: 38px;
     margin-top: 20px;
     margin-left: 10px;
+
 }
 
 .navbar-menu_container{
@@ -16,18 +17,23 @@
 
 .navbar-menu_container h1{
     font-size: 20px;
-    color: var(--color-subtext);
+    color: var(--color-title);
+    font-family: var(--font-family);
+
 }
 
 .navbar-menu_container-links, .navbar-social-link{
     margin:40px 10px;
-    color: var(--color-subtext);
-    
+    color: var(--color-title);
+    font-family: var(--font-family);
+
 }
 
 
 .navbar-menu_container-links p{
     padding-top: 15px;
+    font-family: var(--font-family);
+
 }
 
 .navbar-menu_container-links p:hover, .navbar-social-link p:hover{
@@ -44,39 +50,30 @@
     display: inline;
     padding-left: 10px;
     line-height: 28px;
+    font-family: var(--font-family);
+
 }
 
-.fa-linkedin {
-    transition: transform 0.5s ease, color 0.5s ease; /* Adjust the duration as needed */
-}
-.fa-linkedin:hover {
-    color: #0077b5; /* LinkedIn brand color */
-    transform: scale(1.4); /* Increase size by 20% */
+.fa-linkedin{
+    color: #1F51FF;
+    filter: brightness(300%);
 }
 
-.fa-twitter {
-    transition: transform 0.5s ease, color 0.5s ease; /* Adjust the duration as needed */
-}
-.fa-twitter:hover {
-    color: #1da1f2; /* Twitter brand color */
-    transform: scale(1.4); /* Increase size by 20% */
+.fa-twitter{
+    color: #1F51FF;
+    filter: brightness(300%);
+
 }
 
-.fa-instagram {
-    transition: transform 0.5s ease, color 0.5s ease; /* Adjust the duration as needed */
-}
-.fa-instagram:hover {
-    color: #e1306c; /* Instagram brand color */
-    transform: scale(1.4); /* Increase size by 20% */
+.fa-instagram{
+    color: #FF10F0;
+    filter: brightness(300%);
+
 }
 
-.fa-github {
-    transition: transform 0.5s ease, color 0.5s ease; /* Adjust the duration as needed */
-}
+.fa-github{
+    color: #39FF14;
+    filter: brightness(300%);
 
-.fa-github:hover {
-    color: #6e5494; /* GitHub brand color */
-    transform: scale(1.4); /* Increase size by 20% */
 }
-
 

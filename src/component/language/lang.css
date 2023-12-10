@@ -9,15 +9,16 @@
 }
 
 .language h1{
-    font-size: .8rem;
+    font-size: 16px;
     font-family: var(--font-family);
     color: var(--color-title);
-    padding: 8px;
+    padding: 10px;
+
 }
 
 .outerlang{
-    height: 60px;
-    width: 60px;
+    height: 55px;
+    width: 55px;
     border-radius: 50%;
     box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15);
     padding: 9px;
@@ -27,8 +28,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 40px;
-    width: 40px;
+    height: 45px;
+    width: 45px;
     border-radius: 50%;
     box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
                 0.5px 0.5px 0px rgba(0,0,0,0.15),
@@ -37,19 +38,18 @@
 }
 
 #number{
-    font-weight: bold;
+    font-weight: 400;
     color: #fff;
-    font-size: 11px;
+    font-size: 12px;
     font-family: var(--font-family);
-    letter-spacing: 1px;
-    padding-left: 6px;
+
 }
 
 
 circle{
     fill: none;
     stroke: var(--color-text);
-    stroke-width: 4px;
+    stroke-width: 5px;
     stroke-dasharray: 154.5;
     stroke-dashoffset: 154.5;
     animation: 2s linear forwards;

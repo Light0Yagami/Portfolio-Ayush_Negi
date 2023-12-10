@@ -33,7 +33,7 @@ const Form = () => {
   };
 
   return (
-    <div>
+    <div className='form_container'>
     <div className='form-title' id='form'>
       <h1>Get In Touch</h1>
     </div>
