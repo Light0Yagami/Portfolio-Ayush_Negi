@@ -178,20 +178,18 @@ hr{
 	display: inline-block;
 	height: 30px;
 	width: 30px;
-	margin:0 5px 5px 0;
+	margin:6px 4px 4px 5px;
 	text-align: center;
 	line-height: 30px;
 	border-radius: 60%;
 	color: #ffffff;
 	transition: all 0.5s ease;
-}
-.sidebar_about-footer a:hover{
-	color: #24262b;
-	background-color: #ffffff;
+    padding-left: 35px;
 }
 
+
 .sidebar_about-footer i{
-    font-size: 15px;
+    font-size: 17px;
 }
 
 

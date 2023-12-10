@@ -46,19 +46,37 @@
     line-height: 28px;
 }
 
-.fa-linkedin{
-    color: #1F51FF;
+.fa-linkedin {
+    transition: transform 0.5s ease, color 0.5s ease; /* Adjust the duration as needed */
+}
+.fa-linkedin:hover {
+    color: #0077b5; /* LinkedIn brand color */
+    transform: scale(1.4); /* Increase size by 20% */
 }
 
-.fa-twitter{
-    color: #1F51FF;
+.fa-twitter {
+    transition: transform 0.5s ease, color 0.5s ease; /* Adjust the duration as needed */
+}
+.fa-twitter:hover {
+    color: #1da1f2; /* Twitter brand color */
+    transform: scale(1.4); /* Increase size by 20% */
 }
 
-.fa-instagram{
-    color: #FF10F0;
+.fa-instagram {
+    transition: transform 0.5s ease, color 0.5s ease; /* Adjust the duration as needed */
+}
+.fa-instagram:hover {
+    color: #e1306c; /* Instagram brand color */
+    transform: scale(1.4); /* Increase size by 20% */
 }
 
-.fa-github{
-    color: #39FF14;
+.fa-github {
+    transition: transform 0.5s ease, color 0.5s ease; /* Adjust the duration as needed */
 }
+
+.fa-github:hover {
+    color: #6e5494; /* GitHub brand color */
+    transform: scale(1.4); /* Increase size by 20% */
+}
+
 
