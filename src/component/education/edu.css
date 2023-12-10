@@ -117,3 +117,14 @@
     }
 }
 
+@media(max-width:450px){
+    .edu_container-content{
+        padding: 0;
+        border-right: none;
+    }
+
+    .edu_container-box::before{
+        border: none;
+        content: none;
+    }
+}

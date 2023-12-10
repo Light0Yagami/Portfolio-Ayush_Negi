@@ -18,34 +18,43 @@
 
 .contact_info-container-box{
     display: block;
-    box-shadow: rgba(19, 18, 18, 0.7);
     width: 30%;
-    padding: 30px;
+    box-shadow: rgba(19, 18, 18, 0.7);
+    padding: 15px;
     background-color: var(--color-blog);
     margin-right: 20px;    
     margin-left: 10px;
     margin-bottom: 30px;
 }
 
+.contact_info-container-box ul li{
+    list-style-type: none;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    color: var(--color-subtext);
+}
 
-
-.contact_info-container-box h2,
-.contact_info-container-box p{
-    display: inline;
-    vertical-align: top;
-    font-family: var(--font-family);
-    font-size: 16px;
-    line-height: 28px;
+.contact_info-container-box ul li strong{
+    color: #fff;
 }
 
 
-.contact_info-container-box h2{
-    color: var(--color-title);
+
+
+
+
+@media (max-width:971px){
+    .contact_info-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+    }
+    .contact_info-container-box{
+        width: 100%;
+    }
 }
 
-.contact_info-container-box p{
-    color: #f8f9fa;
-    float: right;
-    padding-left: 20px;
-    color: var(--color-subtext)
-}

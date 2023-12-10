@@ -1,10 +1,10 @@
 import React from 'react'
 import './side.css'
-import profile from '../../asset/images.jpg'
+import profile from '../../asset/IMG.jpg'
 import {Lang, Skillbar} from '../../component'
 const Side = ()=> {
  
-const Resume_url = 'http://localhost:3000/Piyushbidaliya-resume.pdf'
+const Resume_url = 'http://localhost:3000/Resume.pdf'
 
 
 const downloadresume =(url)=>{
@@ -25,7 +25,9 @@ const downloadresume =(url)=>{
     return (
       <div>
         <div className='sidebar_profile'>
+          <div className="sidebar_profile-image">
           <img src={profile} alt="my profile" />
+          </div>
           <h1>Ayush Negi</h1>
           <p>Engineering Student</p>
           <p>DevOps/Cloud</p>
@@ -72,7 +74,7 @@ const downloadresume =(url)=>{
               </div>
               <hr/>
 
-              <div className="sidebar_about-resume">
+              <div className="sidebar_about-resume" id='resume'>
                 <p onClick={()=>(downloadresume(Resume_url))} id="resume">Download Resume <i className='fa fa-download'></i></p>
               </div>
 
@@ -80,11 +82,13 @@ const downloadresume =(url)=>{
         </div>
 
         <div className="sidebar_about-footer">
-          <a href="https://www.linkedin.com/in/ayush-negi-b93b591ba/"><i className="fab fa-linkedin"></i></a>
-          <a href="https://twitter.com/AyushNe49236766"><i className="fab fa-twitter"></i></a>
-          <a href="https://www.instagram.com/m_ayush_00/?hl=en/"><i className="fab fa-instagram"></i></a>
-          <a href="https://github.com/Light0Yagami"><i className="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/ayush-negi-b93b591ba/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a>
+          <a href="https://twitter.com/AyushNe49236766" target="_blank" rel="noreferrer"><i className="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/m_ayush_00/?hl=en/" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a>
+          <a href="https://github.com/Light0Yagami" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
         </div>
+
+        
       </div>
     )
   }

@@ -1,6 +1,9 @@
 import {React, useState} from 'react'
 import './work.css'
-import bgimage from '../../asset/bgimage.jpg'
+import cloud from '../../asset/Cloud.jpeg'
+import Flaskapp from '../../asset/Flask-App.jpeg'
+import face from '../../asset/face.png'
+import parkin from '../../asset/parkin.jpeg'
 
 const Card=({image, title, content})=>{
   return(
@@ -27,19 +30,21 @@ const Work = ()=> {
     switch (activeCategory) {
       case 'all':
         return [
-          <Card key={1} image={bgimage} title="Cloud project" content="lorem ipsum vnsdkvnjanvav ajknvjkav amkv jka jkv j ajvks kv" />,
-          <Card key={2} image={bgimage} title="Another project" content="lorem ipsum vnsdkvnjanvav ajknvjkav amkv jka jkv j ajvks kv" />,
-          <Card key={3} image={bgimage} title="Yet another project" content="lorem ipsum vnsdkvnjanvav ajknvjkav amkv jka jkv j ajvks kv" />,
+          <Card key={1} image={cloud} title="Cloud project" content="lorem ipsum vnsdkvnjanvav ajknvjkav amkv jka jkv j ajvks kv" />,
+          <Card key={2} image={Flaskapp} title="Another project" content="lorem ipsum vnsdkvnjanvav ajknvjkav amkv jka jkv j ajvks kv" />,
+          <Card key={3} image={face} title="Yet another project" content="lorem ipsum vnsdkvnjanvav ajknvjkav amkv jka jkv j ajvks kv" />,
+          <Card key={4} image={parkin} title="Yet another project" content="lorem ipsum vnsdkvnjanvav ajknvjkav amkv jka jkv j ajvks kv" />,
         ];
       case 'cloud':
         return [
-          <Card key={1} image={bgimage} title="Cloud project" content="lorem ipsum vnsdkvnjanvav ajknvjkav amkv jka jkv j ajvks kv" />,
-          <Card key={2} image={bgimage} title="Another cloud project" content="lorem ipsum vnsdkvnjanvav ajknvjkav amkv jka jkv j ajvks kv" />,
+          <Card key={1} image={cloud} title="Cloud project" content="lorem ipsum vnsdkvnjanvav ajknvjkav amkv jka jkv j ajvks kv" />,
+          <Card key={2} image={Flaskapp} title="Another project" content="lorem ipsum vnsdkvnjanvav ajknvjkav amkv jka jkv j ajvks kv" />,   
         ];
 
         case 'mlai':
         return [
-          <Card key={3} image={bgimage} title="Yet another project" content="lorem ipsum vnsdkvnjanvav ajknvjkav amkv jka jkv j ajvks kv" />,
+          <Card key={3} image={face} title="Yet another project" content="lorem ipsum vnsdkvnjanvav ajknvjkav amkv jka jkv j ajvks kv" />,
+          <Card key={4} image={parkin} title="Yet another project" content="lorem ipsum vnsdkvnjanvav ajknvjkav amkv jka jkv j ajvks kv" />,
         ];
       // Add cases for other categories as needed
       default:
@@ -49,7 +54,7 @@ const Work = ()=> {
 
 
     return (
-        <div className="works_container">
+        <div className="works_container" id='projects'>
           <div className="works_container-title">
             <h1>Works</h1>
             <div className="works_container-nav">

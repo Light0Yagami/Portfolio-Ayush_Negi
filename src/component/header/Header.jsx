@@ -10,7 +10,7 @@ const Header = ()=> {
  
   
     return (
-      <div className='header_containerbg'>
+      <div className='header_containerbg' id='home'>
         <div className="header_container">
           <img src={bg} alt="background" />
           <div className="header_container-title">
@@ -30,9 +30,6 @@ const Header = ()=> {
             &lt;<i>code</i>&gt;  
           </div>
           
-          <div className="header_container-btn"><a href="#" className="header_container-bton">
-            <span>Explore now</span></a>
-          </div>
           
           <div className="header_container-img">
             <img src={profile} alt="profilepic" />

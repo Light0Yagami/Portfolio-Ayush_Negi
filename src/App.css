@@ -80,3 +80,45 @@ scrollbar-width: none;  /* Firefox */
 .App{
   display: flex;
 }
+
+/* ... (existing styles) */
+.toggle_button {
+  display: none;
+}
+
+
+/* Add media query for responsiveness */
+@media (max-width: 971px) {
+
+  
+  .toggle_button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    z-index: 3;
+    color: #fff;
+    margin: 10px;
+  }
+  .sidebar_container {
+    left: 0;
+  }
+
+  .body_container {
+    transition: margin-left 0.3s;
+  }
+
+  .body_container.shifted {
+    margin-left: 0;
+  }
+
+  .toggle_button {
+    left: 20px;
+    display: block;
+  }
+}
+
+
+/* Add media query for responsiveness */
+
+

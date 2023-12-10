@@ -84,11 +84,11 @@ const Skills=()=>{
             <h1>My Certificate</h1>
         <hr className='skills-hr'/>
           <div className="skill_certificate-links">
-            <a href='https://coursera.org/share/d22db48dfcb7f329a20933969941479e'><p className='skill-certificate-title'>AWS Cloud Technical Essentials &gt;</p></a>
+            <a href='https://coursera.org/share/d22db48dfcb7f329a20933969941479e' target="_blank" rel="noreferrer"><p className='skill-certificate-title'>AWS Cloud Technical Essentials &gt;</p></a>
             <p className='skill_certificate-tag'>Coursera <br />IAM, Compute services, Networking, Storage ,Database, Monitoring</p>
             </div>
             <div className="skill_certificate-links">
-            <a href='https://coursera.org/share/a17a758640bae3942170229e0e436b06'><p className='skill-certificate-title'>Object Oriented Programming in java &gt;</p></a>
+            <a href='https://coursera.org/share/a17a758640bae3942170229e0e436b06' target="_blank" rel="noreferrer"><p className='skill-certificate-title'>Object Oriented Programming in java &gt;</p></a>
             <p className='skill_certificate-tag'>Coursera <br />Core Concept, OOPs concept, GUI and advance java</p>
             </div>
         </div>

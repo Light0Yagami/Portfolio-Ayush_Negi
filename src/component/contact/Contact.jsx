@@ -5,25 +5,19 @@ const Contact = ()=> {
 
   const Contactinfo =({title, title1, title2, content, content1, content2})=>{
     return(
-
-<>
-            <h2>{title}</h2>
-                <p>{content}</p>
-              <div >
-                <h2>{title1}</h2>
-                <p>{content1}</p>
-              </div>
-              <div >
-                <h2>{title2}</h2>
-                <p>{content2}</p>
-              </div>
-              </>    
+        <div>
+          <ul>
+            <li><strong>{title}</strong>{content}</li>
+            <li><strong>{title1}</strong>{content1}</li>
+            <li><strong>{title2}</strong>{content2}</li>
+          </ul>
+        </div>
     )
   }
  
     return (
       <div>
-      <div className="contact_info-title">
+      <div className="contact_info-title" id='contact'>
             <h1>Contact Information</h1>
             </div>
         <div className="contact_info-container">
@@ -31,34 +25,33 @@ const Contact = ()=> {
             <div className="contact_info-container-box">
                 <Contactinfo 
                   title="Residence:"
-                  content="Uttarakhand"
-                  title1="City:"
-                  content1="Kotdwara"
-                  title2="Steet:"
-                  content2="Durgapuri"
+                  content="India"
+                  title1="State:"
+                  content1="Uttarakhand"
+                  title2="Age:"
+                  content2="21"
                 
                 />
             </div>
             
             <div className="contact_info-container-box">
                 <Contactinfo 
-                  title="Residence:"
-                  content="Uttarakhand"
-                  title1="City:"
-                  content1="Kotdwara"
-                  title2="Steet:"
-                  content2="Durgapuri"
+                  title="Email:"
+                  content="ayush.negi.731@gmail.com"
+                  title1="Telegram:"
+                  content1="Ayush_Negi"
+
                 
                 />
             </div>
 
             <div className="contact_info-container-box">
                 <Contactinfo 
-                  title="Residence:"
+                  title="Support Service:"
                   content="Uttarakhand"
-                  title1="City:"
-                  content1="Kotdwara"
-                  title2="Steet:"
+                  title1="Office:"
+                  content1="Personal"
+                  title2="Personal:"
                   content2="Durgapuri"
                 
                 />

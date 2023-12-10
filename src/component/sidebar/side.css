@@ -8,10 +8,20 @@
 
 }
 
+.sidebar_profile-image{
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-top: 10px;
+
+}
+
 .sidebar_profile img{
-    border-radius: 60%;
-    width: 20%;
-    height: auto;
+    width: 100%;
+    height: auto; 
     
 }
 
@@ -170,4 +180,10 @@ hr{
 .sidebar_about-footer i{
     font-size: 13px;
 }
+
+
+  
+  /* Original styles for larger screens */
+  /* ... (your existing styles) */
+  
 
