@@ -30,15 +30,15 @@ const Work = ()=> {
     switch (activeCategory) {
       case 'all':
         return [
-          <Card key={1} image={cloud} title="Cloud project" content="lorem ipsum vnsdkvnjanvav ajknvjkav amkv jka jkv j ajvks kv" />,
-          <Card key={2} image={Flaskapp} title="Another project" content="lorem ipsum vnsdkvnjanvav ajknvjkav amkv jka jkv j ajvks kv" />,
-          <Card key={3} image={face} title="Yet another project" content="lorem ipsum vnsdkvnjanvav ajknvjkav amkv jka jkv j ajvks kv" />,
-          <Card key={4} image={parkin} title="Yet another project" content="lorem ipsum vnsdkvnjanvav ajknvjkav amkv jka jkv j ajvks kv" />,
+          <Card key={3} image={face} title="Face Mask Detection" content="lorem ipsum vnsdkvnjanvav ajknvjkav amkv jka jkv j ajvks kv" />,
+          <Card key={4} image={parkin} title="Parkinsons Disease Detectioin" content="lorem ipsum vnsdkvnjanvav ajknvjkav amkv jka jkv j ajvks kv" />,
+          <Card key={1} image={cloud} title="Cloud Monitoring Application (K8s)" content="lorem ipsum vnsdkvnjanvav ajknvjkav amkv jka jkv j ajvks kv" />,
+          <Card key={2} image={Flaskapp} title="Flask App Deployment on AWS" content="lorem ipsum vnsdkvnjanvav ajknvjkav amkv jka jkv j ajvks kv" />,
         ];
       case 'cloud':
         return [
-          <Card key={1} image={cloud} title="Cloud project" content="lorem ipsum vnsdkvnjanvav ajknvjkav amkv jka jkv j ajvks kv" />,
-          <Card key={2} image={Flaskapp} title="Another project" content="lorem ipsum vnsdkvnjanvav ajknvjkav amkv jka jkv j ajvks kv" />,   
+          <Card key={1} image={cloud} title="Cloud Monitoring Application (K8s)" content="lorem ipsum vnsdkvnjanvav ajknvjkav amkv jka jkv j ajvks kv" />,
+          <Card key={2} image={Flaskapp} title="Flask App Deployment on AWS" content="lorem ipsum vnsdkvnjanvav ajknvjkav amkv jka jkv j ajvks kv" />,   
         ];
 
         case 'mlai':

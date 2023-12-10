@@ -32,16 +32,18 @@
   margin-bottom: 30px;
   margin-left: 10px;
   font-family: var(--font-family);
+  
 }
 
 .works_container-nav p{
     color: #ffff;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 25px;
     text-transform: capitalize;
     cursor: pointer;
     padding-right: 20px;
+    text-align: center;
 }
 
 
