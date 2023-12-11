@@ -75,6 +75,15 @@
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
   
+  
+  .works_container-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.05); /* Adjust the scale value as needed */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for scaling */
+    cursor: pointer;
+  }
+  
+  
   .image {
     width: 100%;
     height: auto;
@@ -88,14 +97,20 @@
   
 
  .works_container-card-overlay h2{
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 600;
+    font-family: var(--font-family);
+    text-align: left;
+    margin-bottom: 2px;
  }
 
  .works_container-card-overlay-content{
-    font-size: 16px;
+    font-size: 0.85rem;
     font-weight: 400;
-    color: var(--color-subtext)
+    color: var(--color-subtext);
+    text-align: left;
+    margin-bottom: 2px;
+    
  }
 
  .works_container-card-overlay-btn{
@@ -115,7 +130,8 @@
       margin-bottom: 10px;
     }
     .works_container-card-overlay h2{
-      font-size: 16px;
+      font-size: 1rem;
+      text-align: left;
     }
     .works_container-card-overlay-content{
       text-align: left;

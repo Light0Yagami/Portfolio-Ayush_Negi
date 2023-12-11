@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import './component/sidebar/side.css'
+import Stats from './component/stats/Stats';
 import {Side, Header, Work, Edu, Contact, Nav, Form, Skills} from './component'
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
@@ -24,6 +25,7 @@ function App() {
           <Header/>
         </div>
         <div className='body_container-padding'>
+          <Stats/>
           <Work/>
           <Skills/>
           <Edu/>
