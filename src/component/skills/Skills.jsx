@@ -40,21 +40,26 @@ const Skills=()=>{
 
             <div className='skills_container-title-box'>
             <h2>DevOps</h2>
-            <div className='skills_container-content skillgit'>
-            <p>Git/GitHub</p>
-            </div>
-            <div className='skills_container-content skilljen'>
-            <p>Jenkins</p>
-            </div>
-            <div className='skills_container-content skillchef'>
-            <p>Ansible/chef</p>
+            <div className='skills_container-content skillkub'>
+            <p>Kubernetes</p>
             </div>
             <div className='skills_container-content skilldoc'>
             <p>Docker</p>
             </div>
-            <div className='skills_container-content skillkub'>
-            <p>Kubernetes</p>
+            <div className='skills_container-content skillgit'>
+            <p>GIT</p>
             </div>
+            <div className='skills_container-content skilljen'>
+            <p>Jenkins</p>
+            </div>
+            <div className='skills_container-content skillansible'>
+            <p>Ansible</p>
+            </div>
+            
+            <div className='skills_container-content skillchef'>
+            <p>chef</p>
+            </div>
+            
             <div className='skills_container-content skillaws'>
             <p>AWS</p>
             </div>

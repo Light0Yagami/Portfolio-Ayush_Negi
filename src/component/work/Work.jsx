@@ -31,13 +31,13 @@ const Work = ()=> {
       case 'all':
         return [
           <Card key={1} image={face} title="Face Mask Detection" content="CNN | Kaggle API | Matplotlib | Sklearn | Numpy | Tensorflow | Keras" />,
-          <Card key={2} image={cloud} title="Cloud Monitoring Application (K8s)" content="CNN | Kaggle API | Matplotlib | Sklearn | Numpy | Tensorflow | Keras" />,
+          <Card key={2} image={cloud} title="Cloud Monitoring Application" content="Kubernetes | Docker | Python | Boto3 | AWS | ECR | EKR" />,
           <Card key={3} image={parkin} title="Parkinsons Disease Detectioin" content="SVM | NumPy | Pandas | Scikit-learn | Matplotlib | Jupyter Notebook" />,
           <Card key={4} image={Flaskapp} title="Flask App Deployment on AWS" content="AWS Cloud| IAM | EC2 | AWS Dynamo DB | AWS S3 | AWS VPC | Load Balancing | Auto Scaling Group " />,
         ];
       case 'cloud':
         return [
-          <Card key={2} image={cloud} title="Cloud Monitoring Application (K8s)" content="CNN | Kaggle API | Matplotlib | Sklearn | Numpy | Tensorflow | Keras" />,
+          <Card key={2} image={cloud} title="Cloud Monitoring Application" content="Kubernetes | Docker | Python |Boto3 | AWS | ECR | EKR" />,
           <Card key={4} image={Flaskapp} title="Flask App Deployment on AWS" content="AWS Cloud| IAM | EC2 | AWS Dynamo DB | AWS S3 | AWS VPC | Load Balancing | Auto Scaling Group" />,   
         ];
 

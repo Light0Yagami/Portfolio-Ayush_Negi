@@ -65,16 +65,16 @@ scrollbar-width: none;  /* Firefox */
 
 .body_container-padding{
   padding: 20px;
-  background-color: var(--color-footer);
+  background-color: var(--color-bg);
 }
 
 .menu_container{
-  background-color: var(--color-footer);
+  background-color: transparent;
   margin: 20px 10px 20px 0;
   height: 95vh;
   position: fixed;
   right: 0;
-
+  z-index: 1;
 }
 
 
