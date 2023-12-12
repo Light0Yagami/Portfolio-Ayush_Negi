@@ -123,3 +123,12 @@ scrollbar-width: none;  /* Firefox */
 /* Add media query for responsiveness */
 
 
+@media (max-width:450px){
+    .menu_container{
+      display: none;
+    }
+
+    .body_container{
+      margin-right: 0;
+    }
+}
