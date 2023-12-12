@@ -23,12 +23,8 @@
     color: #333;
   }
   
-  .leetcode-icon {
-    fill: yellow; /* Set the SVG icon color to yellow */
-    width: 50px; /* Adjust the size as needed */
-    height: 50px;
-  }
   
+
   @media (max-width: 768px) {
     .stats-container {
       justify-content: center;

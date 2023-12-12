@@ -105,6 +105,6 @@ label:hover{
 @media (max-width:450px){
   .form_contact-us{
     margin: 0;
-    padding: 0;
+    padding: 10;
   }
 }
