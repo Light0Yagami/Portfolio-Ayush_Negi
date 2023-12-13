@@ -69,7 +69,7 @@ scrollbar-width: none;  /* Firefox */
 }
 
 .menu_container{
-  background-color: transparent;
+  background-color: var(--color-blog);
   margin: 20px 10px 20px 0;
   height: 95vh;
   position: fixed;

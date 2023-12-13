@@ -5,20 +5,22 @@ import gfg from '../../asset/gfgsvg.svg'
 
 const StatsComponent = () => {
   return (
-    <div className="stats-container">
-      <div className="stat-item">
-        <div className="stat-number">200+</div>
-        <div className="stat-text">Coding Problems Solved</div>
-      </div>
-      <div className="stat-item">
-        <div className="stat-text">
-        <img src={leet} alt="leetcode icon" /> LeetCode Profile</div>
-      </div>
-      <div className="stat-item">
-        <div className="stat-text">
-        <img src={gfg} alt="gfg icon" />  GfG Profile</div>
-      </div>
+    <div className="container">
+    <div>
+        <span className="number">200+</span>
+        <div className="text">Coding Problem Solved</div>
     </div>
+    <div className="center">
+        <img className = "iconcenter" src={leet} alt="Leetcode" />
+        <div className="text">Leetcode Profile</div>
+    </div>
+    <div className="right">
+        <img className = "iconleft" src={gfg} alt="gfg" />
+        <div className="text">gfg Profile</div>
+    </div>
+</div>
+
+
   );
 };
 

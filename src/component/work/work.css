@@ -1,7 +1,7 @@
 .works_container{
     display: flex;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .works_container-title{
@@ -11,9 +11,9 @@
 
 .works_container-title h1 {
   color: var(--color-title);
-  font-size: 20px;
+  font-size: 1.2rem;
   font-family: var(--font-family);
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   margin-left: 10px;
 }
 
@@ -97,7 +97,7 @@
   
 
  .works_container-card-overlay h2{
-    font-size: 1rem;
+    font-size: .9rem;
     font-weight: 600;
     font-family: var(--font-family);
     text-align: left;
@@ -105,16 +105,18 @@
  }
 
  .works_container-card-overlay-content{
-    font-size: 0.85rem;
+    font-size: .85rem;
     font-weight: 400;
     color: var(--color-subtext);
     text-align: left;
     margin-bottom: 2px;
     
+    
  }
 
  .works_container-card-overlay-btn{
-    font-size: 16px;
+    font-size: 13px;
+    font-family: var(--font-family);
     color: var(--color-text);
     cursor: pointer;
     font-weight: 600;

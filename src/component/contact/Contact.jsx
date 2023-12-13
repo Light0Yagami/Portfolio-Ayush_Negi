@@ -39,7 +39,7 @@ const Contact = ()=> {
                   title="Email:"
                   content="ayush.negi.731@gmail.com"
                   title1="Telegram:"
-                  content1="Ayush_Negi"
+                  content1="@Ayush_Negi"
 
                 
                 />
@@ -50,7 +50,7 @@ const Contact = ()=> {
                   title="Support Service:"
                   content="Uttarakhand"
                   title1="Office:"
-                  content1="Personal"
+                  content1="Freelancer"
                   title2="Personal:"
                   content2="Durgapuri"
                 

@@ -5,6 +5,7 @@
 
 .edu_container{
     padding-right: calc(10%-30px);
+    font-family: var(--font-family);
 }
 
 .edu_container-row{
@@ -20,8 +21,9 @@
 }
 
 .edu_container-title h1{
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: 600;
+
 }
 
 .edu_container-content{
@@ -83,17 +85,24 @@
 }
 
 .edu_container-box h4{
-    position: relative;
+    position:static;
     color: var(--color-title);
-    background-color: #000;
-    width: 50%;
+    background-color: var(--color-blog);
+    width: 40%;
+    text-align: center;
     border-radius: 25px;
     text-align: center;
     filter: brightness(60%);
+    font-size: 10px;
+    font-weight: 450;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .edu_container-box h3{
-    font-size: 19px;
+    font-size: .9rem;
     padding: 10px 0px 6px;
     color: var(--color-title);
     
@@ -102,8 +111,14 @@
 .edu_container-box p{
     line-height: 1.2;
     color: var(--color-title);
-    font-size: 17px;
+    font-size: 13px;
     filter: brightness(60%);
+    margin-top: 15px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: left;
 }
 
 @media(max-width:768px){

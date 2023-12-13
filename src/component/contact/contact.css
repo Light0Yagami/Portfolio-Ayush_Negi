@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     margin-left: 30px;
+    font-family: var(--font-family);
 }
 
 .contact_info-title{
@@ -10,7 +11,8 @@
 
 .contact_info-title h1{
     color: var(--color-title);
-    font-size: 20px;
+    font-family: var(--font-family);
+    font-size: 1.2rem;
     font-weight: 600;
     margin-bottom: 30px;
     margin-left: 10px;
@@ -35,10 +37,12 @@
     justify-content: space-between;
     margin-bottom: 5px;
     color: var(--color-subtext);
+    font-size: 12px;
 }
 
 .contact_info-container-box ul li strong{
-    color: #fff;
+    color: #fafafc;
+    font-size: 12px;
 }
 
 

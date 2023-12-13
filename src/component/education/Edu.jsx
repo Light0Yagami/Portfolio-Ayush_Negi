@@ -12,27 +12,26 @@ const Edu = ()=> {
             </div>
             <div className="edu_container-content">
               <div className="edu_container-box">
-                <h4>2016-2018</h4>
-                <h3>High School</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                   Expedita aliquid nobis itaque voluptatem excepturi deleniti asperiores in doloremque
-                   quo dolorum? Minus non eaque doloremque debitis repellat amet accusantium labore animi.</p>
-              </div>
-
-              <div className="edu_container-box">
-                <h4>2018-2020</h4>
-                <h3>Inter School</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                   Expedita aliquid nobis itaque voluptatem excepturi deleniti asperiores in doloremque
-                   quo dolorum? Minus non eaque doloremque debitis repellat amet accusantium labore animi.</p>
-              </div>
-
-              <div className="edu_container-box">
-                <h4>2020-2024</h4>
                 <h3>B.Tech CSE</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                   Expedita aliquid nobis itaque voluptatem excepturi deleniti asperiores in doloremque
-                   quo dolorum? Minus non eaque doloremque debitis repellat amet accusantium labore animi.</p>
+                <h4>july, 2020 - july, 2024</h4>
+                <p>CGPA : 8.6  
+                  Graphic Era Hill University
+                  Major: CSE (Computer Science & Engineering)</p>
+              </div>
+
+              <div className="edu_container-box">
+                <h3>Class XII</h3>
+                <h4>March, 2018- March,2020</h4>
+                <p>90.2% 
+                  Baluni Public School                 
+                  Major: PCM (Physics, Chemistry & Math)</p>
+              </div>
+
+              <div className="edu_container-box">
+                <h3>High School</h3>
+                <h4>March, 2016 - March, 2018</h4>
+                <p>91.6%
+                   Baluni Public School</p>
               </div>
 
             </div>
@@ -44,19 +43,24 @@ const Edu = ()=> {
             </div>
             <div className="edu_container-content">
               <div className="edu_container-box">
-                <h4>2022-2023</h4>
-                <h3>internship</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                   Expedita aliquid nobis itaque voluptatem excepturi deleniti asperiores in doloremque
-                   quo dolorum? Minus non eaque doloremque debitis repellat amet accusantium labore animi.</p>
+                <h3>SharkSecure Website</h3>
+                <h4>Oct, 2022- Nov, 2023</h4>
+                <p>The SharkSecure website, a collaborative project our team undertook, 
+                   showcases our comprehensive skills in UI design, development, and hosting. 
+                   We successfully managed all these aspects in-house, within a constrained timeframe. 
+                   This project highlights My team's ability to deliver high-quality, user-friendly interfaces for our 
+                   clients in the security solutions sector.</p>
               </div>
 
               <div className="edu_container-box">
-                <h4>2022-2023</h4>
-                <h3>SharkSecure Website</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                   Expedita aliquid nobis itaque voluptatem excepturi deleniti asperiores in doloremque
-                   quo dolorum? Minus non eaque doloremque debitis repellat amet accusantium labore animi.</p>
+                <h3>InfoSecTrain Intern</h3>
+                <h4>july, 2022- Sept, 2023</h4>
+                <p> Acquired skills in network analysis and vulnerability 
+                    assessment, which have been instrumental in researching modern cyber threats
+                    and their impacts on organizations. Their unique contribution to the field 
+                    of cybersecurity has been through the creation of informative content, 
+                    which has enhanced the effectiveness of cybersecurity teaching courses 
+                    across their company.</p>
               </div>
 
             </div>

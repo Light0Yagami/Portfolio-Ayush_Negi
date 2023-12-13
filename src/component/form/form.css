@@ -2,7 +2,6 @@
 
 .form-title{
     font-family: var(--font-family);
-    font-size: 30px;
     margin: 50px 20px 0 30px;
 
   }
@@ -18,7 +17,7 @@
     
 .form-title h1{
     color: var(--color-title);
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: 600;
     margin-bottom: 30px;
     margin-left: 10px;
@@ -30,11 +29,12 @@
     
     label {
       font-weight: bold;
-      color: #fff;
+      color: var(--color-blog);
       display: inline-block;
-      width: 30px;
-      background-color: #000;
+      width: 50px;
+      background-color: var(--color-bg);
       padding: 10px;
+      padding-left: 18px;
     }
 
 
@@ -49,22 +49,27 @@
       background-color: var(--color-footer);
       border-radius: 3px;
       display: inline-block;
+      font-family: var(--font-family);
+      font-size: 12px;
     }
     
     input[type="submit"] {
       background-color: var(--color-text);
-      color: #000;
+      color: #20202a;
       border: none;
       border-radius: 3px;
       padding: 10px 20px;
       cursor: pointer;
-      font-size: 16px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 1.3px ;
+      font-family: var(--font-family);
     }
 
 
   
   textarea:focus, input:focus {
-      background-color: #ffff;
+      background-color: var(--color-blog);
   }
     
 
@@ -86,7 +91,6 @@
 label:hover{
   background-color: var(--color-text);
 }
-
 
 @media (max-width:773px){
   .messagepro i{
