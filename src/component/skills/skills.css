@@ -167,6 +167,13 @@
     .skills_container-title-box {
       margin-right: 0;
     }
+
+    .skill_certificate-container{
+        grid-template-columns: 1fr;
+        padding: 20px 20px 20px 20px;
+        border-radius: 5px;
+
+    }
   }
   
   @media (max-width: 576px) {

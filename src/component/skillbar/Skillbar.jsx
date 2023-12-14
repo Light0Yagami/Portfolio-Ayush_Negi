@@ -7,21 +7,19 @@ const Skillbar = ()=> {
       <div className='skill-container'>
         <div className="skill-box">
             <span className="skill-title">C</span>
+            <span className="tooltipc">90%</span>
 
             <div className="skill-bar">
-                <span className="skill-per c">
-                    <span className="tooltip">90%</span>
-                </span>
+                <span className="skill-per c"> </span>
             </div>
         </div>
 
 
         <div className="skill-box">
             <span className="skill-title">C++</span>
-
+            <span className="tooltipcpp">95%</span>
             <div className="skill-bar">
-                <span className="skill-per cpp">
-                    <span className="tooltip">95%</span>
+                <span className="skill-per cpp">   
                 </span>
             </div>
         </div>
@@ -29,10 +27,10 @@ const Skillbar = ()=> {
 
         <div className="skill-box">
             <span className="skill-title">Java</span>
-
+            <span className="tooltipj">85%</span>
             <div className="skill-bar">
                 <span className="skill-per java">
-                    <span className="tooltip">85%</span>
+                    
                 </span>
             </div>
         </div>
@@ -40,10 +38,10 @@ const Skillbar = ()=> {
 
         <div className="skill-box">
             <span className="skill-title">python</span>
-
+            <span className="tooltipp">80%</span>
             <div className="skill-bar">
                 <span className="skill-per python">
-                    <span className="tooltip">80%</span>
+                    
                 </span>
             </div>
         </div>

@@ -64,7 +64,7 @@ scrollbar-width: none;  /* Firefox */
 }
 
 .body_container-padding{
-  padding: 20px;
+  padding: 0px;
   background-color: var(--color-bg);
 }
 
@@ -133,7 +133,7 @@ scrollbar-width: none;  /* Firefox */
     transition: margin-left 0.3s;
     display: flex;
     margin-right: 13px;
-    padding-left: 5px;
+    
     background-color: var(--color-bg); 
   }
 

@@ -61,7 +61,7 @@ const Work = ()=> {
             <p><a href='#all' onClick={() => handleCategoryClick('all')} className={activeCategory === 'all' ? 'active' : ''}>All Categories</a></p>
             <p><a href='#cloud' onClick={() => handleCategoryClick('cloud')} className={activeCategory === 'cloud' ? 'active' : ''}>Cloud</a></p>
             <p><a href='#mlai' onClick={() => handleCategoryClick('mlai')} className={activeCategory === 'mlai' ? 'active' : ''}>Ml Ai</a></p>
-            <p><a href='#mlai' onClick={() => handleCategoryClick('webdev')} className={activeCategory === 'webdev' ? 'active' : ''}>Web Dev</a></p>
+            <p><a href='#webdev' onClick={() => handleCategoryClick('webdev')} className={activeCategory === 'webdev' ? 'active' : ''}>Web Dev</a></p>
 
             </div>
             {getFilteredCards()}

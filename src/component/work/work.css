@@ -14,7 +14,7 @@
   font-size: 1.2rem;
   font-family: var(--font-family);
   margin-bottom: 25px;
-  margin-left: 10px;
+  margin-left: 11px;
 }
 
 /* Center the h1 element on smaller screens */
@@ -131,6 +131,11 @@
       padding-bottom: 15px;
       margin-bottom: 10px;
     }
+    .works_container-title{
+      margin: 0;
+      display: inline-block;
+  }
+    
     .works_container-card-overlay h2{
       font-size: 1rem;
       text-align: left;
@@ -145,8 +150,8 @@
 
     .works_container-nav{
       display: flex;
-      justify-content: center;
-      align-items: center;
+      justify-content:space-around;
+      align-items: right;
     }
  }
 

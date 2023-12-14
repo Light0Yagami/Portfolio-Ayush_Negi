@@ -145,6 +145,9 @@
     .edu_container-col:nth-child(2){
         margin-top: 30px;
     }
+    .edu_container-content{
+        padding: 0;
+    }
 }
 
 @media(max-width:450px){
