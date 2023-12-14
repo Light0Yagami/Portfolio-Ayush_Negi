@@ -17,7 +17,7 @@ a{
 
 
 .sidebar_container{
-  margin: 20px 200px 20px 20px;
+  margin: 20px 0px 20px 20px;
   background-color: var(--color-blog);
   height: 95vh;
   position: fixed;
@@ -112,13 +112,14 @@ scrollbar-width: none;  /* Firefox */
   .body_container {
     transition: margin-left 0.3s;
     display: flex;
-    margin-right: 15px;
-    margin-left: 15rem;
+    margin-right: 13px;
+    padding-left: 5px;
+    background-color: var(--color-bg); 
   }
 
   .body_container.shifted {
-    margin-left: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 10px;
+    background-color: var(--color-bg);
   }
 
   .toggle_button {
@@ -138,7 +139,16 @@ scrollbar-width: none;  /* Firefox */
       display: none;
     }
 
-    .body_container{
-      margin-right: 0;
+    .body_container {
+      transition: margin-left 0.3s;
+      display: flex;
+      padding-left: 5px;
+      background-color: var(--color-bg); 
     }
+  
+    .body_container.shifted {
+      margin-left: 10px;
+      background-color: var(--color-bg);
+    }
+    
 }
