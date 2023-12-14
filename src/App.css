@@ -17,7 +17,7 @@ a{
 
 
 .sidebar_container{
-  margin: 20px 0 20px 20px;
+  margin: 20px 200px 20px 20px;
   background-color: var(--color-blog);
   height: 95vh;
   position: fixed;
@@ -90,23 +90,30 @@ scrollbar-width: none;  /* Firefox */
 
 /* Add media query for responsiveness */
 @media (max-width: 971px) {
-
   
   .toggle_button {
     position: fixed;
-    top: 20px;
+    top: 16px;
     left: 20px;
     cursor: pointer;
     z-index: 3;
-    color: #fff;
+    color: #8C8C8E;
     margin: 10px;
   }
   .sidebar_container {
     left: 0;
+    margin: 20px 0 20px 20px;
+  }
+
+  .menu_container{
+    display: none;
   }
 
   .body_container {
     transition: margin-left 0.3s;
+    display: flex;
+    margin-right: 15px;
+    margin-left: 15rem;
   }
 
   .body_container.shifted {
@@ -118,6 +125,8 @@ scrollbar-width: none;  /* Firefox */
     left: 20px;
     display: block;
   }
+
+  
 }
 
 

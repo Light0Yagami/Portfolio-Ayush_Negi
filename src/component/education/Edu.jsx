@@ -14,24 +14,30 @@ const Edu = ()=> {
               <div className="edu_container-box">
                 <h3>B.Tech CSE</h3>
                 <h4>july, 2020 - july, 2024</h4>
-                <p>CGPA : 8.6  
-                  Graphic Era Hill University
-                  Major: CSE (Computer Science & Engineering)</p>
+                <ul>
+                  <li>CGPA : 8.6 </li>
+                  <li>Graphic Era Hill University</li>
+                  <li> Major: CSE (Computer Science & Engineering)</li>                  
+                </ul>
               </div>
 
               <div className="edu_container-box">
                 <h3>Class XII</h3>
                 <h4>March, 2018- March,2020</h4>
-                <p>90.2% 
-                  Baluni Public School                 
-                  Major: PCM (Physics, Chemistry & Math)</p>
+                <ul>
+                  <li>90.2% </li>
+                  <li>Baluni Public School</li>
+                  <li>Major: PCM (Physics, Chemistry & Math)</li>                  
+                </ul>
               </div>
 
               <div className="edu_container-box">
                 <h3>High School</h3>
                 <h4>March, 2016 - March, 2018</h4>
-                <p>91.6%
-                   Baluni Public School</p>
+                <ul>
+                  <li>91.6%</li>
+                  <li>Baluni Public School</li>
+                </ul>              
               </div>
 
             </div>

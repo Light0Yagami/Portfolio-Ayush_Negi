@@ -11,7 +11,7 @@
 }
 
 .number {
-  font-size: 2em; /* Adjust size as needed */
+  font-size: 2rem; /* Adjust size as needed */
   font-weight: bolder;
   color: var(--color-text);
   padding-left: 50px;
@@ -29,4 +29,36 @@
   text-align: center;
   color: white;
   font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font-family);
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-right: 50px;
+    padding-left: 10px;
+  }
+
+  .number {
+    font-size: 1.5rem;
+    padding-left: 50px;
+  }
+
+  .iconcenter {
+    padding-left: 40px;
+  }
+
+  .iconleft{
+    padding-left: 20px;
+  }
+
+
+  .text {
+    font-size: 0.8rem;
+  }
 }

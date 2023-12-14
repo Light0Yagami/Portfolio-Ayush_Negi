@@ -75,6 +75,7 @@
     animation: rotate 1.5s linear infinite;
 }
 
+
 @keyframes rotate{
     0%{
         filter: hue-rotate(0deg);
@@ -108,17 +109,31 @@
     
 }
 
-.edu_container-box p{
-    line-height: 1.2;
-    color: var(--color-title);
+.edu_container-box li{
+    color: #8c8c8e;
     font-size: 13px;
     filter: brightness(60%);
+    margin-top: 2px;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+}
+
+.edu_container-box ul{
     margin-top: 15px;
+}
+
+.edu_container-box p{
+    line-height: 1.2;
+    color: #8c8c8e;
+    font-size: 13px;
+    filter: brightness(60%);
+    margin-top: 10px;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     text-align: left;
+    font-family: "Poppins", sans-serif;
 }
 
 @media(max-width:768px){

@@ -98,10 +98,14 @@
     .header_container {
         flex-direction: column;
         padding: 30px;
+        position: relative;
+        display: flex;
     }
+    
 
     .header_container img {
         height: auto;
+
     }
 
     .header_container-title {

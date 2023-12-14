@@ -161,7 +161,9 @@
     .skills_grid-container {
       grid-template-columns: 1fr;
     }
-  
+    .skills_container-grid {
+        grid-template-columns: 1fr;
+      }
     .skills_container-title-box {
       margin-right: 0;
     }
