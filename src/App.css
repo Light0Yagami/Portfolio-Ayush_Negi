@@ -93,13 +93,30 @@ scrollbar-width: none;  /* Firefox */
   
   .toggle_button {
     position: fixed;
-    top: 16px;
-    left: 20px;
+    top: 18px;
+    left: 230px;
     cursor: pointer;
     z-index: 3;
     color: #8C8C8E;
     margin: 10px;
-  }
+    display: block;
+    transition: top 0.3s, left 0.3s, font-size 0.3s; /* Add transitions */
+}
+
+.toggle_button:active {
+  text-shadow: 0 0 10px #ffffff; /* Adjust color and size as needed */
+}
+
+.toggle_button.open {
+    top: 18px;
+    left: 18px;
+    font-weight: bolder;
+    font-size: 15px;
+    font-size: 1rem;
+}
+
+
+
   .sidebar_container {
     left: 0;
     margin: 20px 0 20px 20px;
@@ -119,15 +136,7 @@ scrollbar-width: none;  /* Firefox */
 
   .body_container.shifted {
     margin-left: 10px;
-    background-color: var(--color-bg);
   }
-
-  .toggle_button {
-    left: 20px;
-    display: block;
-  }
-
-  
 }
 
 

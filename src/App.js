@@ -9,6 +9,7 @@ function App() {
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
   };
+
   return (
     <div className="App">
       <div className={`sidebar_container ${isSidebarOpen ? 'open' : ''}`}>
@@ -16,24 +17,24 @@ function App() {
       </div>
 
       <div className={`body_container ${isSidebarOpen ? 'shifted' : ''}`}>
-        <div className="toggle_button" onClick={toggleSidebar}>
-          <i className={`fas ${isSidebarOpen ? 'fa-solid fa-ellipsis-vertical' : 'fa-solid fa-ellipsis-vertical'}`}></i>
+        <div className={`toggle_button ${isSidebarOpen ? 'open' : ''}`} onClick={toggleSidebar}>
+          {isSidebarOpen ? '⋮' : '✖'} {/* Change the content based on whether the sidebar is open */}
         </div>
         <div className='bodY_container-position'>
           <div className='body_container-scroll'>
-        <div className='body_container-bg'>
-          <Header/>
+            <div className='body_container-bg'>
+              <Header/>
+            </div>
+            <div className='body_container-padding'>
+              <Stats/>
+              <Work/>
+              <Skills/>
+              <Edu/>
+              <Contact/>
+              <Form/>
+            </div>
+          </div>
         </div>
-        <div className='body_container-padding'>
-          <Stats/>
-          <Work/>
-          <Skills/>
-          <Edu/>
-          <Contact/>
-          <Form/>
-        </div>
-      </div>
-      </div>
       </div>
 
       <div className='menu_container'>
@@ -44,3 +45,4 @@ function App() {
 }
 
 export default App;
+

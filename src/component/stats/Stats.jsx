@@ -8,7 +8,7 @@ const StatsComponent = () => {
     <div className="container">
     <div>
         <span className="number">200+</span>
-        <div className="text">Coding Problem Solved</div>
+        <div className="texti">Coding Problem Solved</div>
     </div>
     <div className="center">
         <img className = "iconcenter" src={leet} alt="Leetcode" />
