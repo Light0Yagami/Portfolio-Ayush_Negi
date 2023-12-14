@@ -1,6 +1,6 @@
 import React from 'react'
 import './side.css'
-import profile from '../../asset/IMG.jpg'
+import profile from '../../asset/profile.jpg'
 import {Lang, Skillbar} from '../../component'
 const Side = ()=> {
  
