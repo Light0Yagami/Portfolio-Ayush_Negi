@@ -18,7 +18,7 @@ function App() {
 
       <div className={`body_container ${isSidebarOpen ? 'shifted' : ''}`}>
         <div className={`toggle_button ${isSidebarOpen ? 'open' : ''}`} onClick={toggleSidebar}>
-          {isSidebarOpen ? '⋮' : '✖'} {/* Change the content based on whether the sidebar is open */}
+          {isSidebarOpen ? '☰' : '✖'} {/* Change the content based on whether the sidebar is open */}
         </div>
         <div className='bodY_container-position'>
           <div className='body_container-scroll'>

@@ -100,6 +100,7 @@ scrollbar-width: none;  /* Firefox */
     color: #8C8C8E;
     margin: 10px;
     display: block;
+    font-size: large;
     transition: top 0.3s, left 0.3s, font-size 0.3s; /* Add transitions */
 }
 
@@ -108,11 +109,13 @@ scrollbar-width: none;  /* Firefox */
 }
 
 .toggle_button.open {
-    top: 18px;
-    left: 18px;
+    top: 25px;
+    left: 25px;
     font-weight: bolder;
-    font-size: 15px;
+    font-size: xx-large;
     font-size: 1rem;
+    margin: 0;
+    padding: 0;
 }
 
 
