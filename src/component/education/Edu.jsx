@@ -27,7 +27,7 @@ const Edu = ()=> {
                 <ul>
                   <li>90.2% </li>
                   <li>Baluni Public School</li>
-                  <li>Major: PCM (Physics, Chemistry & Math)</li>                  
+                  <li>Major: PCM (Physics, Chemistry & Maths)</li>                  
                 </ul>
               </div>
 
